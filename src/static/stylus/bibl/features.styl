@@ -1,0 +1,67 @@
+.features__top
+  padding-top: 50px
+  display grid
+  grid-template-columns repeat(3, 1fr)
+  grid-template-rows repeat(1, 1fr)
+  &-top
+    display grid
+    justify-items center
+    justify-items center
+    //row-gap 20px
+    border-right 1px solid silver
+    border-bottom 1px solid silver
+    padding-bottom: 20px
+
+    &>a
+      font-size: 25px
+      color black
+
+      &:hover
+        color red
+        transition .3s
+        font-size: 27px
+    &>h3
+      font-size: 16px
+      font-weight: 700
+
+      &:hover
+        text-decoration underline
+        text-transform uppercase
+    &>p
+      text-align: center
+      font-size: 12px
+      color silver
+      &:hover
+        color black
+h2
+  text-align: center
+  margin-top: 200px
+  font-weight: 700
+.features__bot
+
+  &-bot
+    padding-top: 20px
+    display grid
+    justify-items center
+    justify-items center
+    row-gap 20px
+    border-right 1px solid silver
+    &>a
+      font-size: 25px
+      color black
+      &:hover
+        color blue
+        transition .3s
+        font-size: 27px
+    &>h3
+      font-size: 16px
+      font-weight: 700
+      &:hover
+        text-decoration underline
+        text-transform uppercase
+    &>p
+      text-align: center
+      font-size: 12px
+      color silver
+      &:hover
+        color black
